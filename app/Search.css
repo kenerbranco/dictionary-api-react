@@ -1,0 +1,74 @@
+.search-container {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+
+.search-input-group {
+  text-align: center;
+}
+
+.search-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.search-container input[type="text"] {
+  width: calc(100% - 100px); /* Ajusta a largura para o botão ao lado */
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+.search-container h2 {
+  color: #007bff;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.search-container h3 {
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.search-container h4 {
+  color: #777;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.search-container p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  padding-left: 15px; /* Indentação para definições */
+  border-left: 2px solid #007bff; /* Barra lateral para definições */
+}
